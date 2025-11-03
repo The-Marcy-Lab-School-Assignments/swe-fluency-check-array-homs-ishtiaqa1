@@ -40,8 +40,9 @@ console.log(getEvenNumbers(sampleNumbers));
 
 // Problem 5
 const getLargestNumber = (numbers) => {
-
+  return numbers.reduce((acc, num) => {return Math.max(acc,num)}, numbers[0]);
 };
+console.log(getLargestNumber(sampleNumbers));
 
 /* -------------------------------------------------- */
 /* --------------OBJECT ARRAY PROBLEMS--------------- */

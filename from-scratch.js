@@ -22,9 +22,10 @@ console.log(getStringLengths(sampleWords));
 
 // Problem 3
 const sortWordsZtoA = (words) => {
-
+  words.sort().reverse()
 };
-
+sortWordsZtoA(sampleWords);
+console.log(sampleWords);
 /* -------------------------------------------- */
 /* --------------NUMBER PROBLEMS--------------- */
 /* -------------------------------------------- */
